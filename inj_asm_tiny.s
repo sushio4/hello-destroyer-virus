@@ -1,7 +1,7 @@
 //build instructions:
 //
 //  as inj_asm_tiny.s -o inj_asm_tiny.o --64
-//  ld -e 0x00000078 -Ttext 0 --oformat=binary -o inj_asm_tiny inj_asm_tiny.o
+//  ld -Ttext 0 --oformat=binary -o inj_asm_tiny inj_asm_tiny.o
 //
 ELF_HEADER:
     //e_ident
