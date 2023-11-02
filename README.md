@@ -13,6 +13,7 @@ For building inj_asm I used gcc with following flags:
 - s
 - nostdlib
 - no-pie
+
 If you want it to be REALLY tiny (641B) build inj_asm_tiny as follows:
 - as inj_asm_tiny.s -o inj_asm_tiny.o --64
 - ld -Ttext 0 --oformat=binary -o inj_asm_tiny inj_asm_tiny.o
